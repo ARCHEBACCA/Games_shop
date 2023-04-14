@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    padding: 16px 0;
+    background-color: aquamarine;
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18;
+}
+
+header nav li a {
+    color: white;
+}
+
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
