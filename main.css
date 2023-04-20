@@ -4,24 +4,79 @@
     box-sizing: border-box;
 }
 
+header, 
+section h2 {
+    font-family: 'Bungee', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     padding: 16px 0;
-    background-color: aquamarine;
+    background-color: rgb(253, 0, 0);
     color: white;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 18;
+    font-size: 18px;
 }
 
 header nav li a {
     color: white;
+    text-decoration: none;
 }
 
 .container {
-    max-width: 1180px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: rgb(255, 0, 0);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
 }
